@@ -92,7 +92,7 @@
     <dependency>
       <groupId>org.junit-pioneer</groupId>
       <artifactId>junit-pioneer</artifactId>
-      <version>0.2.0</version>
+      <version>0.5.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
