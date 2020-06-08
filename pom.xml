@@ -16,9 +16,9 @@
  limitations under the License.
 -->
 <project
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>hcsp</groupId>
   <artifactId>commons-lang3</artifactId>
@@ -27,9 +27,9 @@
 
   <inceptionYear>2001</inceptionYear>
   <description>
-  Apache Commons Lang, a package of Java utility classes for the
-  classes that are in java.lang's hierarchy, or are considered to be so
-  standard as to justify existence in java.lang.
+    Apache Commons Lang, a package of Java utility classes for the
+    classes that are in java.lang's hierarchy, or are considered to be so
+    standard as to justify existence in java.lang.
   </description>
 
   <url>https://commons.apache.org/proper/commons-lang/</url>
@@ -61,6 +61,20 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.5.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>0.5.6</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
